@@ -2,7 +2,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/inifile'
 
 mod 'mail',
-  :git    => 'https://github.com/jethrocarr/puppet-mail.git',
+  :git    => 'https://github.com/arnaudmorin/puppet-mail.git',
   :branch => 'master'
 
 mod 'letsencrypt',
