@@ -12,3 +12,7 @@ mod 'letsencrypt',
 mod 'postfix',
   :git    => 'https://github.com/jethrocarr/puppet-postfix.git',
   :branch => 'master'
+
+mod 'base',
+  :git    => 'https://github.com/arnaudmorin/mail-puppet-base.git',
+  :branch => 'master'
