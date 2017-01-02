@@ -1,4 +1,5 @@
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/inifile'
 
 mod 'mail',
   :git    => 'https://github.com/jethrocarr/puppet-mail.git',
