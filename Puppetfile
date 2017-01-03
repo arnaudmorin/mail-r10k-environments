@@ -1,6 +1,7 @@
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/inifile'
 mod 'puppetlabs/concat'
+mod 'puppetlabs/ntp'
 
 mod 'mail',
   :git    => 'https://github.com/arnaudmorin/puppet-mail.git',
@@ -20,4 +21,12 @@ mod 'base',
 
 mod 'bash',
   :git    => 'https://github.com/arnaudmorin/puppet-bash.git',
+  :branch => 'master'
+
+mod 'zsh',
+  :git    => 'https://github.com/arnaudmorin/puppet-zsh.git',
+  :branch => 'master'
+
+mod 'ssh',
+  :git    => 'https://github.com/arnaudmorin/puppet-ssh.git',
   :branch => 'master'
