@@ -30,3 +30,7 @@ mod 'zsh',
 mod 'ssh',
   :git    => 'https://github.com/arnaudmorin/puppet-ssh.git',
   :branch => 'master'
+
+mod 'rainloop',
+  :git    => 'https://github.com/arnaudmorin/mail-puppet-rainloop.git',
+  :branch => 'master'
