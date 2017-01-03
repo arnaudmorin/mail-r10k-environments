@@ -1,7 +1,7 @@
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/inifile'
 mod 'puppetlabs/concat'
-mod 'puppetlabs/ntp'
+mod 'puppetlabs/ntp', '4.2.0'
 
 mod 'mail',
   :git    => 'https://github.com/arnaudmorin/puppet-mail.git',
