@@ -5,7 +5,7 @@ mod 'puppetlabs/ntp', '4.2.0'
 
 mod 'mail',
   :git    => 'https://github.com/arnaudmorin/puppet-mail.git',
-  :branch => 'master'
+  :branch => 'dev/add_cronjob_after_before_params'
 
 mod 'letsencrypt',
   :git    => 'https://github.com/voxpupuli/puppet-letsencrypt.git',
