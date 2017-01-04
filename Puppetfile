@@ -12,6 +12,10 @@ mod 'letsencrypt',
   :git    => 'https://github.com/voxpupuli/puppet-letsencrypt.git',
   :branch => 'master'
 
+mod 'extlib',
+  :git    => 'https://github.com/voxpupuli/puppet-extlib.git',
+  :branch => 'master'
+
 mod 'postfix',
   :git    => 'https://github.com/jethrocarr/puppet-postfix.git',
   :branch => 'master'
