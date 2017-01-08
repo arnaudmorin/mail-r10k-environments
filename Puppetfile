@@ -8,7 +8,7 @@ mod 'dhoppe-fail2ban', '1.3.4'
 
 mod 'mail',
   :git    => 'https://github.com/arnaudmorin/puppet-mail.git',
-  :branch => 'dev/arnaudmorin/add_managesieve'
+  :branch => 'master'
 
 mod 'letsencrypt',
   :git    => 'https://github.com/voxpupuli/puppet-letsencrypt.git',
