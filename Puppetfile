@@ -41,3 +41,7 @@ mod 'ssh',
 mod 'rainloop',
   :git    => 'https://github.com/arnaudmorin/mail-puppet-rainloop.git',
   :branch => 'master'
+
+mod 'nextcloud',
+  :git    => 'https://github.com/jlejeune/mail-puppet-nextcloud.git',
+  :branch => 'master'
