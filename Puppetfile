@@ -5,11 +5,14 @@ mod 'puppetlabs/apt'
 mod 'puppetlabs/ntp', '4.2.0'
 mod 'puppetlabs/mysql', '3.10.0'
 mod 'dhoppe-fail2ban', '1.3.4'
-mod 'bi4o4ek-opendkim', '0.0.7'
+
+mod 'opendkim',
+  :git    => 'https://github.com/rjpearce/puppet-opendkim',
+  :branch => 'master'
 
 mod 'mail',
   :git    => 'https://github.com/arnaudmorin/puppet-mail.git',
-  :branch => 'dev/arnaud.morin/add_dkim_support'
+  :branch => 'master'
 
 mod 'letsencrypt',
   :git    => 'https://github.com/voxpupuli/puppet-letsencrypt.git',
