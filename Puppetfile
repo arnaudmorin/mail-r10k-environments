@@ -5,6 +5,7 @@ mod 'puppetlabs/apt'
 mod 'puppetlabs/ntp', '4.2.0'
 mod 'puppetlabs/mysql', '3.10.0'
 mod 'dhoppe-fail2ban', '1.3.4'
+mod 'rodjek-logrotate'
 
 mod 'opendkim',
   :git    => 'https://github.com/rjpearce/puppet-opendkim',
